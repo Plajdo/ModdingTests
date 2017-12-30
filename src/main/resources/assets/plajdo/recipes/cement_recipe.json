@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sandstone",
+      "data": 0
+    },
+    {
+      "item": "minecraft:sandstone",
+      "data": 0
+    },
+    {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    {
+      "item": "minecraft:clay",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "plajdo:cement",
+    "data": 0,
+    "count": 4
+  }
+}

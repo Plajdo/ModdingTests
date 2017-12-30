@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "plajdo:wetwall"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

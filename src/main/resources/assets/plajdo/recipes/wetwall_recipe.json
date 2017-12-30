@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "data": 0
+    },
+    {
+      "item": "plajdo:cement",
+      "data": 0
+    },
+    {
+      "item": "plajdo:cement",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "plajdo:wetwall",
+    "data": 0,
+    "count": 4
+  }
+}
