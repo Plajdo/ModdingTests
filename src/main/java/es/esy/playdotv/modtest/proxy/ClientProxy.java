@@ -1,5 +1,6 @@
 package es.esy.playdotv.modtest.proxy;
 
+import es.esy.playdotv.modtest.init.ModBlocks;
 import es.esy.playdotv.modtest.init.ModItems;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -17,6 +18,7 @@ public class ClientProxy extends CommonProxy{
 	
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent e){
+		ModBlocks.initModels();
 		ModItems.initModels();
 	}
 	

@@ -1,8 +1,10 @@
 package es.esy.playdotv.modtest.proxy;
 
 import es.esy.playdotv.modtest.blocks.WallBlock;
+import es.esy.playdotv.modtest.blocks.WetWallBlock;
 import es.esy.playdotv.modtest.init.ModBlocks;
 import es.esy.playdotv.modtest.items.CementItem;
+import es.esy.playdotv.modtest.items.PlajdoItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -31,12 +33,15 @@ public class CommonProxy{
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event){
 		event.getRegistry().register(new WallBlock());
+		event.getRegistry().register(new WetWallBlock());
 	}
 	
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event){
 		event.getRegistry().register(new ItemBlock(ModBlocks.wall).setRegistryName(ModBlocks.wall.getRegistryName()));
+		event.getRegistry().register(new ItemBlock(ModBlocks.wetwall).setRegistryName(ModBlocks.wetwall.getRegistryName()));
 		event.getRegistry().register(new CementItem());
+		event.getRegistry().register(new PlajdoItem());
 	}
 	
 }

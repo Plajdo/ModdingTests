@@ -1,5 +1,5 @@
 {
-  "parent": "plajdo:block/wall",
+  "parent": "plajdo:block/wetwall",
   "display": {
     "thirdperson": {
       "rotation": [ 10, -45, 170 ],

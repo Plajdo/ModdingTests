@@ -1,11 +1,11 @@
 package es.esy.playdotv.modtest.blocks;
 
 import es.esy.playdotv.modtest.Reference;
+import es.esy.playdotv.modtest.init.ModTabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
@@ -17,7 +17,7 @@ public class WallBlock extends Block{
 		super(Material.ROCK);
 		setUnlocalizedName(Reference.MOD_ID + ".wall");
 		setRegistryName("wall");
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(ModTabs.tabPlajdo);
 		setHardness(1.5f);
 		setResistance(8.0f);
 		setSoundType(SoundType.STONE);
