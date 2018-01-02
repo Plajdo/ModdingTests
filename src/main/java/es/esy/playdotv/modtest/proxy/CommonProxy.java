@@ -4,6 +4,7 @@ import es.esy.playdotv.modtest.blocks.WallBlock;
 import es.esy.playdotv.modtest.blocks.WetWallBlock;
 import es.esy.playdotv.modtest.init.ModBlocks;
 import es.esy.playdotv.modtest.items.CementItem;
+import es.esy.playdotv.modtest.items.EnchantedGoldItem;
 import es.esy.playdotv.modtest.items.PlajdoItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -40,6 +41,7 @@ public class CommonProxy{
 	public static void registerItems(RegistryEvent.Register<Item> event){
 		event.getRegistry().register(new ItemBlock(ModBlocks.wall).setRegistryName(ModBlocks.wall.getRegistryName()));
 		event.getRegistry().register(new ItemBlock(ModBlocks.wetwall).setRegistryName(ModBlocks.wetwall.getRegistryName()));
+		event.getRegistry().register(new EnchantedGoldItem());
 		event.getRegistry().register(new CementItem());
 		event.getRegistry().register(new PlajdoItem());
 	}
